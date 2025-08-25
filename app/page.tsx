@@ -151,29 +151,34 @@ export default function Page() {
         </div>
       </section>
 
-      {/* About */}
-      <section id="about" className="border-t border-neutral-800 bg-neutral-950">
-        <div className="max-w-6xl mx-auto px-4 py-16 grid md:grid-cols-2 gap-10 items-start">
-          <div>
-            <h2 className="text-2xl md:text-3xl font-bold">About Dakim Stanley</h2>
-            <p className="mt-3 text-neutral-300">
-              When Summer 2021 hit thats when I decided to take my health and fitness seriously. I believe in building up men and women to be fully confident in themselves and live a healthier lifestyle. If you give it your all, there's no way you can fail with this program. It all starts with your mind then it leaks out to your body, spirit, and your health.
-            </p>
-            <ul className="mt-6 space-y-3 text-neutral-300 text-sm">
-              <li>• write out any workout split based on the days you have available to workout</li>
-              <li>• Macros for your goal (with food lists you’ll actually eat)</li>
-              <li>• Weekly check-ins and real feedback</li>
-            </ul>
-          </div>
-          <div className="rounded-3xl bg-gradient-to-br from-neutral-900 to-neutral-800 p-2 border border-neutral-800 shadow-xl">
-            <img
-              src="/about.jpg"
-              alt="Coach"
-              className="rounded-2xl object-cover h-[340px] w-full"
-            />
-          </div>
-        </div>
-      </section>
+     {/* About */}
+<section id="about" className="border-t border-neutral-800 bg-neutral-950">
+  <div className="max-w-6xl mx-auto px-4 py-16">
+    <h2 className="text-2xl md:text-3xl font-bold">About Dakim Stanley</h2>
+
+    <p className="mt-3 text-neutral-300 max-w-3xl">
+      When <span className="text-neutral-100 font-medium">Summer 2021</span> hit that’s when I decided to take my health
+      and fitness seriously. I believe in building up men and women to be fully confident in themselves and live a
+      healthier lifestyle. If you give it your all, there’s no way you can fail with this program. It all starts with
+      your mind—then it leaks out to your body, spirit, and your health.
+    </p>
+
+    <ul className="mt-6 space-y-3 text-neutral-300 text-sm max-w-3xl">
+      <li className="flex gap-3">
+        <span className="mt-2 h-2 w-2 rounded-full bg-red-500/90" />
+        <span>Write out any workout split based on the days you have available to workout.</span>
+      </li>
+      <li className="flex gap-3">
+        <span className="mt-2 h-2 w-2 rounded-full bg-red-500/90" />
+        <span>Macros for your goal (with food lists you’ll actually eat).</span>
+      </li>
+      <li className="flex gap-3">
+        <span className="mt-2 h-2 w-2 rounded-full bg-red-500/90" />
+        <span>Weekly check-ins and real feedback.</span>
+      </li>
+    </ul>
+  </div>
+</section>
 
       {/* Contact */}
       <section id="contact" className="border-t border-neutral-800">
